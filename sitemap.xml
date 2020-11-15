@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://yoursite.com/posts/520520/</loc>
+    
+    <lastmod>2020-11-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/posts/29906/</loc>
+    
+    <lastmod>2020-11-15</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/posts/11409/</loc>
+    
+    <lastmod>2020-11-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/posts/62117/</loc>
+    
+    <lastmod>2020-11-14</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/music/index.html</loc>
+    
+    <lastmod>2020-04-23</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/talk/index.html</loc>
+    
+    <lastmod>2020-04-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/contact/index.html</loc>
+    
+    <lastmod>2020-04-22</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/gallery/index.html</loc>
+    
+    <lastmod>2020-04-21</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/bangumis/index.html</loc>
+    
+    <lastmod>2020-04-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/link/index.html</loc>
+    
+    <lastmod>2020-04-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2020-04-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2020-04-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/books/index.html</loc>
+    
+    <lastmod>2020-04-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/movies/index.html</loc>
+    
+    <lastmod>2020-04-19</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2020-04-19</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>http://yoursite.com/</loc>
+    <lastmod>2020-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://yoursite.com/tags/%E6%80%BB%E7%BB%93/</loc>
+    <lastmod>2020-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/blog/</loc>
+    <lastmod>2020-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://yoursite.com/categories/blog/</loc>
+    <lastmod>2020-11-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>

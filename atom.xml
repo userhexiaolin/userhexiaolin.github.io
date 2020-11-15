@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>blog-lionkk</title>
+  
+  <subtitle>blog-lionkk</subtitle>
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-11-15T09:39:28.863Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>超逸</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/posts/520520/"/>
+    <id>http://yoursite.com/posts/520520/</id>
+    <published>2020-11-15T09:39:28.863Z</published>
+    <updated>2020-11-15T09:39:28.863Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.</summary>
+      
+    
+    
+    
+    <category term="blog" scheme="http://yoursite.com/categories/blog/"/>
+    
+    
+    <category term="总结" scheme="http://yoursite.com/tags/%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>常见报错</title>
+    <link href="http://yoursite.com/posts/29906/"/>
+    <id>http://yoursite.com/posts/29906/</id>
+    <published>2020-11-15T09:21:14.000Z</published>
+    <updated>2020-11-15T09:21:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、hexo-g-生成静态文件报错"><a href="#一、hexo-g-生成静态文件报错" class="headerlink" title="一、hexo g 生成静态文件报错"></a>一、hexo g 生成静态文件报错</h4><h5 id="问题表现："><a href="#问题表现：" class="headerlink" title="问题表现："></a>问题表现：</h5><p><img src= "/img/loading.gif" data-src="./%E5%B8%B8%E8%A7%81%E6%8A%A5%E9%94%99/2108200cc0ca60064251c27f55a4a690.png" alt=""></p><h5 id="解决方法："><a href="#解决方法：" class="headerlink" title="解决方法："></a>解决方法：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">编辑根目录的 &#96;_config.yml&#96; 文件 , 把 &#96;use_date_for_updated&#96; 值改为 &#96;updated_option&#96;</span><br></pre></td></tr></table></figure><h4 id="二、更换主题后，进入localhost-4000，不显示博客内容"><a href="#二、更换主题后，进入localhost-4000，不显示博客内容" class="headerlink" title="二、更换主题后，进入localhost:4000，不显示博客内容"></a>二、更换主题后，进入localhost:4000，不显示博客内容</h4><h5 id="问题表现：-1"><a href="#问题表现：-1" class="headerlink" title="问题表现："></a>问题表现：</h5><p>Hexo更改主题后启动服务器，界面显如下字符:</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">extends includes/layout.pug block content include includes/recent-posts.pug include includes/partial</span><br></pre></td></tr></table></figure><h5 id="解决方法：-1"><a href="#解决方法：-1" class="headerlink" title="解决方法："></a>解决方法：</h5><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">输入：npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</span><br></pre></td></tr></table></figure><p>安装完成后，输入hexo clean清除缓存，hexo g生成静态文件，hexo s本地调试。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;一、hexo-g-生成静态文件报错&quot;&gt;&lt;a href=&quot;#一、hexo-g-生成静态文件报错&quot; class=&quot;headerlink&quot; title=&quot;一、hexo g 生成静态文件报错&quot;&gt;&lt;/a&gt;一、hexo g 生成静态文件报错&lt;/h4&gt;&lt;h5 id=&quot;问题表现：</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>hexo博客部署</title>
+    <link href="http://yoursite.com/posts/11409/"/>
+    <id>http://yoursite.com/posts/11409/</id>
+    <published>2020-11-14T14:36:32.488Z</published>
+    <updated>2020-11-14T14:36:32.488Z</updated>
+    
+    <content type="html"><![CDATA[<p>（注意：cmd界面要以管理员身份运行）</p><table><thead><tr><th>名词</th><th>是否必须</th><th>安装方式/释义</th></tr></thead><tbody><tr><td>node.js</td><td>是</td><td>官网下载</td></tr><tr><td>git</td><td>是</td><td>官网下载</td></tr><tr><td>淘宝镜像源</td><td>否</td><td>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></td></tr><tr><td>hexo</td><td>是</td><td>官网下载</td></tr><tr><td>mkdir</td><td>是</td><td>mkdir + 文件夹名，创建博客目录</td></tr><tr><td>hexo init</td><td>是</td><td>生成一个新博客</td></tr><tr><td>图片路径转换插件</td><td>是</td><td>yarn <a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">https://github.com/CodeFalling/hexo-asset-image</a><br />  (yarn改成npm也可以。)</td></tr><tr><td>hexo new</td><td>是</td><td>hexo new + 文章名，自动生成一个md格式的文件<br />（如果安装了路径转换插件，则会额外创建与文章同名的文件夹，<br />用来存储图片等文件）</td></tr><tr><td>hexo g</td><td>是</td><td>hexo generate；生成静态文件</td></tr><tr><td>hexo s</td><td>否</td><td>hexo server；本地调试</td></tr><tr><td>远端部署插件</td><td>是</td><td>npm install –save hexo-deployer-git</td></tr><tr><td>hexo d</td><td>是</td><td>hexo deploy；将博客推送到远端</td></tr></tbody></table><h4 id="一、安装node-js"><a href="#一、安装node-js" class="headerlink" title="一、安装node.js"></a>一、安装node.js</h4><h4 id="二、安装git"><a href="#二、安装git" class="headerlink" title="二、安装git"></a>二、安装git</h4><h4 id="三、替换到国内源（下载速度慢时可选，替换后需将npm换成cnpm）"><a href="#三、替换到国内源（下载速度慢时可选，替换后需将npm换成cnpm）" class="headerlink" title="三、替换到国内源（下载速度慢时可选，替换后需将npm换成cnpm）"></a>三、替换到国内源（下载速度慢时可选，替换后需将npm换成cnpm）</h4><p>​        在cmd界面输入：npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></p><h4 id="四、安装hexo"><a href="#四、安装hexo" class="headerlink" title="四、安装hexo"></a>四、安装hexo</h4><p>​        输入：npm install -g hexo-cli</p><h4 id="五、创建一个空文件夹（必须是用命令创建文件夹，否则可能出错）"><a href="#五、创建一个空文件夹（必须是用命令创建文件夹，否则可能出错）" class="headerlink" title="五、创建一个空文件夹（必须是用命令创建文件夹，否则可能出错）"></a>五、创建一个空文件夹（必须是用命令创建文件夹，否则可能出错）</h4><p>​        在cmd界面输入：mkdir 文件夹名，cd到 刚创建的文件夹</p><h4 id="六、创建博客"><a href="#六、创建博客" class="headerlink" title="六、创建博客"></a>六、创建博客</h4><p>​        输入：hexo init，自动生成博客。</p><h4 id="七、安装图片路径转换插件"><a href="#七、安装图片路径转换插件" class="headerlink" title="七、安装图片路径转换插件"></a>七、安装图片路径转换插件</h4><p>​        打开博客主目录中的cofig.yml，找到post_asset_folder，将值设为“true“。<br>​        输入：yarn <a href="https://github.com/CodeFalling/hexo-asset-image" target="_blank" rel="noopener">https://github.com/CodeFalling/hexo-asset-image</a>  (yarn改成npm也可以。)</p><h4 id="八、创建文章（安装图片路径插件后，会同时生成文章和同名文件夹）"><a href="#八、创建文章（安装图片路径插件后，会同时生成文章和同名文件夹）" class="headerlink" title="八、创建文章（安装图片路径插件后，会同时生成文章和同名文件夹）"></a>八、创建文章（安装图片路径插件后，会同时生成文章和同名文件夹）</h4><p>​        1、输入：hexo new + 文章名称，编辑文章内容。<br>​        2、将图片放进md文件中后，右击图片，复制图片到”其同名文件夹“中，并将图片的绝对路径改为相对路径</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">（如”![1](D:/blog/_post/myblog/1.jpg)"改为"![1](./myblog/1.jpg)" )</span><br></pre></td></tr></table></figure><p>​        3、windows系统必须在路径前面加” ./ “，否则在博客中不会显示图片。</p><p>​        4、改为绝对路径后，如果缩放图片，图片路径会发生改变，但是并没有影响。</p><h4 id="九、生成静态文件"><a href="#九、生成静态文件" class="headerlink" title="九、生成静态文件"></a>九、生成静态文件</h4><p>​        输入：hexo g      (即：hexo generate)</p><h4 id="十、启动调试"><a href="#十、启动调试" class="headerlink" title="十、启动调试"></a>十、启动调试</h4><p>​        输入：hexo s    （即：hexo server）</p><h4 id="十一、连接github"><a href="#十一、连接github" class="headerlink" title="十一、连接github"></a>十一、连接github</h4><p>​    （在git bash中输入：git config –global user.email “<a href="mailto:lin1009084929@gmail.com">lin1009084929@gmail.com</a>“ 和</p><p>​       git config –global user.name “userhexiaolin”  ；即输入用户名密码，不然hexo不知道你的github账户，也就无法推送。）</p><h4 id="十二、推送博客至github仓库"><a href="#十二、推送博客至github仓库" class="headerlink" title="十二、推送博客至github仓库"></a>十二、推送博客至github仓库</h4><p>​      安装git部署插件，输入：npm install –save hexo-deployer-git</p><p>​      <strong>说明</strong> ：部署前需要修改 _config.yml 配置文件，下面以 git 为例进行说明</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">type: git</span><br><span class="line">repo: &lt;repository url&gt;</span><br><span class="line">branch:master</span><br><span class="line">message: 自定义提交消息，默认为Site updated: &#123;&#123; now(&#39;YYYY-MM-DD HH:mm:ss&#39;) &#125;&#125;</span><br></pre></td></tr></table></figure><p>​        输入hexo d 或 hexo g -d ，将博客推送到远端。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;（注意：cmd界面要以管理员身份运行）&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;名词&lt;/th&gt;
+&lt;th&gt;是否必须&lt;/th&gt;
+&lt;th&gt;安装方式/释义&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;node.js&lt;/td&gt;
+&lt;td&gt;是</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>从购买服务器到安装宝塔</title>
+    <link href="http://yoursite.com/posts/62117/"/>
+    <id>http://yoursite.com/posts/62117/</id>
+    <published>2020-11-14T14:34:37.697Z</published>
+    <updated>2020-11-14T14:34:37.697Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="一、购买云服务器"><a href="#一、购买云服务器" class="headerlink" title="一、购买云服务器"></a>一、购买云服务器</h4><h5 id="1-进入阿里云官网的云服务器购买页面"><a href="#1-进入阿里云官网的云服务器购买页面" class="headerlink" title="1.进入阿里云官网的云服务器购买页面"></a>1.进入阿里云官网的云服务器<a href="https://www.aliyun.com/product/ecs?spm=5176.19720258.J_2686872250.d401.47cb2c4aKFy67O&scm=20140722.3157.1.3015" target="_blank" rel="noopener">购买页面</a></h5><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114184821792.png" style="zoom: 67%;" /><h5 id="2-根据需求进行购买（这次选购的是共享性s6-lt-1核2G-gt-双11搞活动时价格为85元-年）"><a href="#2-根据需求进行购买（这次选购的是共享性s6-lt-1核2G-gt-双11搞活动时价格为85元-年）" class="headerlink" title="2.根据需求进行购买（这次选购的是共享性s6&lt;1核2G&gt;;双11搞活动时价格为85元/年）"></a>2.根据需求进行购买（这次选购的是共享性s6&lt;1核2G&gt;;双11搞活动时价格为85元/年）</h5><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114184944745.png" style="zoom: 67%;" /><h5 id="3-根据短信提示，进入阿里云官网中的控制台，使用提货券"><a href="#3-根据短信提示，进入阿里云官网中的控制台，使用提货券" class="headerlink" title="3.根据短信提示，进入阿里云官网中的控制台，使用提货券"></a>3.根据短信提示，进入阿里云官网中的控制台，使用提货券</h5><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114190830912.png" style="zoom:50%;" /><h5 id="4-输入服务器配置信息（要安装什么操作系统）"><a href="#4-输入服务器配置信息（要安装什么操作系统）" class="headerlink" title="4.输入服务器配置信息（要安装什么操作系统）"></a>4.输入服务器配置信息（要安装什么操作系统）</h5><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114190612276.png" style="zoom: 50%;" /><h5 id="5-等待接收包含服务器IP信息的短信"><a href="#5-等待接收包含服务器IP信息的短信" class="headerlink" title="5.等待接收包含服务器IP信息的短信"></a>5.等待接收包含服务器IP信息的短信</h5><h4 id="二、安装宝塔"><a href="#二、安装宝塔" class="headerlink" title="二、安装宝塔"></a>二、安装宝塔</h4><h5 id="1-在云服务器控制台中放行8888端口（否则后面无法访问宝塔面板）"><a href="#1-在云服务器控制台中放行8888端口（否则后面无法访问宝塔面板）" class="headerlink" title="1.在云服务器控制台中放行8888端口（否则后面无法访问宝塔面板）"></a>1.在云服务器控制台中放行8888端口（否则后面无法访问宝塔面板）</h5><p><img src= "/img/loading.gif" data-src="./%E4%BB%8E%E8%B4%AD%E4%B9%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%B0%E5%AE%89%E8%A3%85%E5%AE%9D%E5%A1%94/image-20201114193021398.png" alt="image-20201114193021398"></p><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114193301053.png" style="zoom: 67%;" /><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114193603099.png" alt="image-20201114193603099" style="zoom: 67%;" /><h5 id="2-远程连接云服务器"><a href="#2-远程连接云服务器" class="headerlink" title="2.远程连接云服务器"></a>2.远程连接云服务器</h5><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114194816769.png" alt="image-20201114194816769" style="zoom: 67%;" /><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114194911964.png" style="zoom: 67%;" /><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114195107413.png" style="zoom:50%;" /><h5 id="3-通过终端安装宝塔（获得宝塔外网、内网面板地址）"><a href="#3-通过终端安装宝塔（获得宝塔外网、内网面板地址）" class="headerlink" title="3.通过终端安装宝塔（获得宝塔外网、内网面板地址）"></a>3.通过终端安装宝塔（获得宝塔外网、内网面板地址）</h5><p>输入命令：（ yum install -y wget &amp;&amp; wget -O install.sh <a href="http://download.bt.cn/install/install_6.0.sh" target="_blank" rel="noopener">http://download.bt.cn/install/install_6.0.sh</a> &amp;&amp; sh install.sh ）</p><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114192540229.png" alt="image-20201114192540229" style="zoom: 67%;" /><h5 id="4-在浏览器输入宝塔面板外网访问地址，登录"><a href="#4-在浏览器输入宝塔面板外网访问地址，登录" class="headerlink" title="4.在浏览器输入宝塔面板外网访问地址，登录"></a>4.在浏览器输入宝塔面板外网访问地址，登录</h5><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114200149328.png" style="zoom:50%;" /><h5 id="5-安装宝塔客户端（解压运行压缩包微信收藏里有）"><a href="#5-安装宝塔客户端（解压运行压缩包微信收藏里有）" class="headerlink" title="5.安装宝塔客户端（解压运行压缩包微信收藏里有）"></a>5.安装宝塔客户端（解压运行压缩包微信收藏里有）</h5><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔\image-20201114191923729.png" style="zoom: 67%;" /><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114200603775.png" style="zoom: 67%;" /><h5 id="6-登录宝塔客户端"><a href="#6-登录宝塔客户端" class="headerlink" title="6.登录宝塔客户端"></a>6.登录宝塔客户端</h5><p>输入云服务器外网IP</p><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114200919088.png" style="zoom: 50%;" /><p>创建登录用户（输入云服务器的登录名名和密码）</p><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114201150085.png" alt="image-20201114201150085" style="zoom: 50%;" /><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔/image-20201114201338298.png" alt="image-20201114201338298" style="zoom:50%;" /><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔\image-20201114201740960-1605416894330.png" style="zoom:50%;" /><p>选择刚才创建的用户名和密码，登录</p><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔\image-20201114201833411-1605416896949.png" style="zoom: 50%;" /><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔\image-20201114201932591-1605416902970.png" style="zoom: 50%;" /><img src= "/img/loading.gif" data-src="./从购买服务器到安装宝塔\image-20201114202403132-1605416911449.png" style="zoom: 50%;" />]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;一、购买云服务器&quot;&gt;&lt;a href=&quot;#一、购买云服务器&quot; class=&quot;headerlink&quot; title=&quot;一、购买云服务器&quot;&gt;&lt;/a&gt;一、购买云服务器&lt;/h4&gt;&lt;h5 id=&quot;1-进入阿里云官网的云服务器购买页面&quot;&gt;&lt;a href=&quot;#1-进入阿里云官网的云</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
