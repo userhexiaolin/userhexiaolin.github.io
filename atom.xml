@@ -6,7 +6,7 @@
   <link href="https://userhexiaolin.github.io/atom.xml" rel="self"/>
   
   <link href="https://userhexiaolin.github.io/"/>
-  <updated>2020-11-15T14:58:13.000Z</updated>
+  <updated>2020-11-21T04:54:04.000Z</updated>
   <id>https://userhexiaolin.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>访问博客主页提示报错“404”</title>
+    <link href="https://userhexiaolin.github.io/posts/21510/"/>
+    <id>https://userhexiaolin.github.io/posts/21510/</id>
+    <published>2020-11-21T04:54:04.000Z</published>
+    <updated>2020-11-21T04:54:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="【问题表现】："><a href="#【问题表现】：" class="headerlink" title="【问题表现】："></a><em>【问题表现】：</em></h4><p>访问博客地址，页面报错——404 There isnt a GitHub Pages site here</p><p><img src= "/img/loading.gif" data-src="/posts/21510/D:%5CstudyDemo%5Chexo%5Cblog%5Csource_posts%5C%E8%AE%BF%E9%97%AE%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A1%B5%E6%8A%A5%E9%94%99404%5C%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20201114221009.png" alt="微信截图_20201114221009"></p><h4 id="【解决方法】："><a href="#【解决方法】：" class="headerlink" title="【解决方法】："></a><em>【解决方法】：</em></h4><p>Settings——Options——Change visibility——Make Public——输入博客名称——确认修改——选择分支（master）、文件夹——保存（save）</p><hr><p><img src= "/img/loading.gif" data-src="/posts/21510/.%5C%E8%AE%BF%E9%97%AE%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A1%B5%E6%8A%A5%E9%94%99404%5C%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20201114222240-1605936676785.png" alt="微信截图_20201114222240"></p><p><img src= "/img/loading.gif" data-src="/posts/21510/.%5C%E8%AE%BF%E9%97%AE%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A1%B5%E6%8A%A5%E9%94%99404%5CSnipaste_2020-11-14_22-15-40-1605936718368.png" alt="Snipaste_2020-11-14_22-15-40"></p><p><img src= "/img/loading.gif" data-src="/posts/21510/.%5C%E8%AE%BF%E9%97%AE%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A1%B5%E6%8A%A5%E9%94%99404%5C%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20201114222007-1605936737221.png" alt="微信截图_20201114222007"></p><p><img src= "/img/loading.gif" data-src="/posts/21510/.%5C%E8%AE%BF%E9%97%AE%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A1%B5%E6%8A%A5%E9%94%99404%5CSnipaste_2020-11-14_22-25-16-1605936763690.png" alt="Snipaste_2020-11-14_22-25-16"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h4 id=&quot;【问题表现】：&quot;&gt;&lt;a href=&quot;#【问题表现】：&quot; class=&quot;headerlink&quot; title=&quot;【问题表现】：&quot;&gt;&lt;/a&gt;&lt;em&gt;【问题表现】：&lt;/em&gt;&lt;/h4&gt;&lt;p&gt;访问博客地址，页面报错——404 There isnt a GitHub Page</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>利用Gulp来压缩Hexo博客</title>
