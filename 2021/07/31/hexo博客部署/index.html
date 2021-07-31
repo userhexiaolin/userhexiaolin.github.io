@@ -13,10 +13,13 @@
 <meta property="og:site_name" content="linBlog">
 <meta property="og:description" content="（注意：cmd界面要以管理员身份运行）    名词 是否必须 安装方式&#x2F;释义    node.js 是 官网下载   git 是 官网下载   淘宝镜像源 否 npm install -g cnpm –registry&#x3D;https:&#x2F;&#x2F;registry.npm.taobao.org   hexo 是 官网下载   mkdir 是 mkdir + 文件夹名，创建博客目录   hexo init 是">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://userhexiaolin.github.io/2021/07/31/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/Snipaste_2021-07-31_11-46-57.png">
+<meta property="og:image" content="https://userhexiaolin.github.io/2021/07/31/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20210731114726.png">
 <meta property="article:published_time" content="2021-07-31T03:16:42.469Z">
-<meta property="article:modified_time" content="2021-07-30T17:16:00.232Z">
+<meta property="article:modified_time" content="2021-07-31T04:02:28.024Z">
 <meta property="article:author" content="lin">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://userhexiaolin.github.io/2021/07/31/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/Snipaste_2021-07-31_11-46-57.png">
   
     <link rel="alternate" href="/atom.xml" title="linBlog" type="application/atom+xml">
   
@@ -164,6 +167,11 @@
 <td>是</td>
 <td>hexo deploy；将博客推送到远端</td>
 </tr>
+<tr>
+<td>markdown图片路径</td>
+<td>是</td>
+<td>文件——偏好设置——图像——插入图片时：1.复制到指定路径；2.  ./$(filename); 3.对本地位置的图片应用上述规则；4.对网络位置的图片应用上述规则；5.优先使用相对路径</td>
+</tr>
 </tbody></table>
 <h4 id="一、安装node-js"><a href="#一、安装node-js" class="headerlink" title="一、安装node.js"></a>一、安装node.js</h4><h4 id="二、安装git"><a href="#二、安装git" class="headerlink" title="二、安装git"></a>二、安装git</h4><h4 id="三、替换到国内源（下载速度慢时可选，替换后需将npm换成cnpm）"><a href="#三、替换到国内源（下载速度慢时可选，替换后需将npm换成cnpm）" class="headerlink" title="三、替换到国内源（下载速度慢时可选，替换后需将npm换成cnpm）"></a>三、替换到国内源（下载速度慢时可选，替换后需将npm换成cnpm）</h4><p>​        在cmd界面输入：npm install -g cnpm –registry=<a target="_blank" rel="noopener" href="https://registry.npm.taobao.org/">https://registry.npm.taobao.org</a></p>
 <h4 id="四、安装hexo"><a href="#四、安装hexo" class="headerlink" title="四、安装hexo"></a>四、安装hexo</h4><p>​        输入：npm install -g hexo-cli</p>
@@ -175,9 +183,19 @@
 
 <p>​        3、windows系统必须在路径前面加” ./ “，否则在博客中不会显示图片。</p>
 <p>​        4、改为绝对路径后，如果缩放图片，图片路径会发生改变，但是并没有影响。</p>
+<p>​        5、在.md文件中打开文件——偏好设置——图像——插入图片时：{</p>
+<ul>
+<li> 复制到指  定路径；</li>
+<li>./$(filename)</li>
+<li>对本地位置的图片应用上述规则</li>
+<li>对网络位置的图片应用上述规则</li>
+<li>优先使用相对路径</li>
+</ul>
+<p><img src="/2021/07/31/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/Snipaste_2021-07-31_11-46-57.png" alt="Snipaste_2021-07-31_11-46-57"></p>
+<p><img src="/2021/07/31/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/%E5%BE%AE%E4%BF%A1%E6%88%AA%E5%9B%BE_20210731114726.png" alt="微信截图_20210731114726"></p>
 <h4 id="九、生成静态文件"><a href="#九、生成静态文件" class="headerlink" title="九、生成静态文件"></a>九、生成静态文件</h4><p>​        输入：hexo g      (即：hexo generate)</p>
 <h4 id="十、启动调试"><a href="#十、启动调试" class="headerlink" title="十、启动调试"></a>十、启动调试</h4><p>​        输入：hexo s    （即：hexo server）</p>
-<h4 id="十一、连接github"><a href="#十一、连接github" class="headerlink" title="十一、连接github"></a>十一、连接github</h4><p>​    （在git bash中输入：git config –global user.email “<a href="mailto:&#108;&#105;&#110;&#49;&#x30;&#48;&#x39;&#48;&#56;&#52;&#x39;&#50;&#x39;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#111;&#x6d;">&#108;&#105;&#110;&#49;&#x30;&#48;&#x39;&#48;&#56;&#52;&#x39;&#50;&#x39;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#x63;&#111;&#x6d;</a>“ 和</p>
+<h4 id="十一、连接github"><a href="#十一、连接github" class="headerlink" title="十一、连接github"></a>十一、连接github</h4><p>​    （在git bash中输入：git config –global user.email “<a href="mailto:&#108;&#x69;&#x6e;&#x31;&#x30;&#48;&#x39;&#48;&#x38;&#52;&#57;&#x32;&#57;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;">&#108;&#x69;&#x6e;&#x31;&#x30;&#48;&#x39;&#48;&#x38;&#52;&#57;&#x32;&#57;&#64;&#x67;&#109;&#97;&#105;&#x6c;&#46;&#99;&#x6f;&#109;</a>“ 和</p>
 <p>​       git config –global user.name “userhexiaolin”  ；即输入用户名密码，不然hexo不知道你的github账户，也就无法推送。）</p>
 <h4 id="十二、推送博客至github仓库"><a href="#十二、推送博客至github仓库" class="headerlink" title="十二、推送博客至github仓库"></a>十二、推送博客至github仓库</h4><p>​      安装git部署插件，输入：npm install –save hexo-deployer-git</p>
 <p>​      <strong>说明</strong> ：部署前需要修改 _config.yml 配置文件，下面以 git 为例进行说明</p>
