@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  
+  <title>生成SSH添加到GitHub | linBlog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="（——–本篇博文是纯转载的，因为懒得写。感谢大佬，原博文链接：https:&#x2F;&#x2F;sunhwee.com&#x2F;posts&#x2F;6e8839eb.html--------）生成SSH添加到GitHub，连接Github与本地。右键打开git bash，然后输入下面命令： 12git config --global user.name &quot;yourname&quot;git config --global">
+<meta property="og:type" content="article">
+<meta property="og:title" content="生成SSH添加到GitHub">
+<meta property="og:url" content="https://userhexiaolin.github.io/2020/11/15/%E7%94%9F%E6%88%90SSH%E6%B7%BB%E5%8A%A0%E5%88%B0GitHub/index.html">
+<meta property="og:site_name" content="linBlog">
+<meta property="og:description" content="（——–本篇博文是纯转载的，因为懒得写。感谢大佬，原博文链接：https:&#x2F;&#x2F;sunhwee.com&#x2F;posts&#x2F;6e8839eb.html--------）生成SSH添加到GitHub，连接Github与本地。右键打开git bash，然后输入下面命令： 12git config --global user.name &quot;yourname&quot;git config --global">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://userhexiaolin.github.io/2020/11/15/%E7%94%9F%E6%88%90SSH%E6%B7%BB%E5%8A%A0%E5%88%B0GitHub/6.png">
+<meta property="og:image" content="https://userhexiaolin.github.io/2020/11/15/%E7%94%9F%E6%88%90SSH%E6%B7%BB%E5%8A%A0%E5%88%B0GitHub/7.png">
+<meta property="article:published_time" content="2020-11-15T12:21:52.000Z">
+<meta property="article:modified_time" content="2020-11-15T15:38:23.243Z">
+<meta property="article:author" content="lin">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://userhexiaolin.github.io/2020/11/15/%E7%94%9F%E6%88%90SSH%E6%B7%BB%E5%8A%A0%E5%88%B0GitHub/6.png">
+  
+    <link rel="alternate" href="/atom.xml" title="linBlog" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/favicon.png">
+  
+  
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/typeface-source-code-pro@0.0.71/index.min.css">
+
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+    
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.min.css">
+
+  
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">linBlog</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="https://userhexiaolin.github.io"></form>
+      </div>
+    </div>
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-生成SSH添加到GitHub" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2020/11/15/%E7%94%9F%E6%88%90SSH%E6%B7%BB%E5%8A%A0%E5%88%B0GitHub/" class="article-date">
+  <time class="dt-published" datetime="2020-11-15T12:21:52.000Z" itemprop="datePublished">2020-11-15</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="p-name article-title" itemprop="headline name">
+      生成SSH添加到GitHub
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <h6 id="（——–本篇博文是纯转载的，因为懒得写。感谢大佬，原博文链接：https-sunhwee-com-posts-6e8839eb-html-）"><a href="#（——–本篇博文是纯转载的，因为懒得写。感谢大佬，原博文链接：https-sunhwee-com-posts-6e8839eb-html-）" class="headerlink" title="（——–本篇博文是纯转载的，因为懒得写。感谢大佬，原博文链接：https://sunhwee.com/posts/6e8839eb.html--------）"></a>（——–本篇博文是纯转载的，因为懒得写。感谢大佬，原博文<a target="_blank" rel="noopener" href="https://sunhwee.com/posts/6e8839eb.html">链接</a>：<a target="_blank" rel="noopener" href="https://sunhwee.com/posts/6e8839eb.html--------%EF%BC%89">https://sunhwee.com/posts/6e8839eb.html--------）</a></h6><p>生成<code>SSH</code>添加到<code>GitHub</code>，连接<code>Github</code>与本地。<br>右键打开<code>git bash</code>，然后输入下面命令：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;yourname&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;youremail&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>Bash</p>
+<p>这里的<code>yourname</code>输入你的<code>GitHub</code>用户名，<code>youremail</code>输入你<code>GitHub</code>的邮箱。这样<code>GitHub</code>才能知道你是不是对应它的账户。例如我的：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">&quot;shw2018&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;hwsun@std.uestc.edu.cn&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>Bash</p>
+<p>可以用以下两条，检查一下你有没有输对</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></table></figure>
+
+<p>Bash</p>
+<p>然后创建<code>SSH</code>,一路回车</p>
+<blockquote>
+<p><code>ssh</code>，简单来讲，就是一个秘钥，其中，<code>id_rsa</code>是你这台电脑的私人秘钥，不能给别人看的，<code>id_rsa.pub</code>是公共秘钥，可以随便给别人看。把这个公钥放在<code>GitHub</code>上，这样当你链接<code>GitHub</code>自己的账户时，它就会根据公钥匹配你的私钥，当能够相互匹配时，才能够顺利的通过<code>git</code>上传你的文件到<code>GitHub</code>上。</p>
+</blockquote>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">&quot;youremail&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>Bash</p>
+<p>这个时候它会告诉你已经生成了<code>.ssh</code>的文件夹。在你的电脑中找到这个文件夹。或者<code>git bash</code>中输入</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
+
+<p>Bash</p>
+<p>将输出的内容复制到框中，点击确定保存。</p>
+<p>打开<a target="_blank" rel="noopener" href="http://github.com/">github</a>，在头像下面点击<code>settings</code>，再点击<code>SSH and GPG keys</code>，新建一个<code>SSH</code>，名字随便取一个都可以，把你的<code>id_rsa.pub</code>里面的信息复制进去。如图：</p>
+<p><img src="/2020/11/15/%E7%94%9F%E6%88%90SSH%E6%B7%BB%E5%8A%A0%E5%88%B0GitHub/6.png" alt="img"></p>
+<p>在<code>git bash</code>输入<code>ssh -T git@github.com</code>，如果如下图所示，出现你的用户名，那就成功了。</p>
+<p><img src="/2020/11/15/%E7%94%9F%E6%88%90SSH%E6%B7%BB%E5%8A%A0%E5%88%B0GitHub/7.png" alt="img"></p>
+<p>来源: 洪卫の博客<br>作者: 洪卫<br>文章链接: <a target="_blank" rel="noopener" href="https://sunhwee.com/posts/6e8839eb.html">https://sunhwee.com/posts/6e8839eb.html</a><br>本文章著作权归作者所有，任何形式的转载都请注明出处。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://userhexiaolin.github.io/2020/11/15/%E7%94%9F%E6%88%90SSH%E6%B7%BB%E5%8A%A0%E5%88%B0GitHub/" data-id="ckrr7fe81000cdsw5aiiceznv" data-title="生成SSH添加到GitHub" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/11/15/%E5%88%A9%E7%94%A8Gulp%E6%9D%A5%E5%8E%8B%E7%BC%A9Hexo%E5%8D%9A%E5%AE%A2/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          利用Gulp来压缩Hexo博客
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/11/15/%E5%B8%B8%E8%A7%81%E6%8A%A5%E9%94%99/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">常见报错</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Categories</h3>
+    <div class="widget">
+      <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/blog/">blog</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog/" rel="tag">blog</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%80%BB%E7%BB%93/" rel="tag">总结</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/blog/" style="font-size: 10px;">blog</a> <a href="/tags/%E6%80%BB%E7%BB%93/" style="font-size: 10px;">总结</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2021/07/">July 2021</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">November 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2021/07/31/%E4%BB%8E%E8%B4%AD%E4%B9%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%88%B0%E5%AE%89%E8%A3%85%E5%AE%9D%E5%A1%94/">从购买服务器到安装宝塔</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/31/hexo%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/">hexo博客部署</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/31/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2021/07/31/testblog/">testblog</a>
+          </li>
+        
+          <li>
+            <a href="/2020/11/15/%E5%88%A9%E7%94%A8Gulp%E6%9D%A5%E5%8E%8B%E7%BC%A9Hexo%E5%8D%9A%E5%AE%A2/">利用Gulp来压缩Hexo博客</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      
+      &copy; 2021 lin<br>
+      Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+
+<script src="/js/jquery-3.4.1.min.js"></script>
+
+
+
+  
+<script src="/fancybox/jquery.fancybox.min.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+
+  </div>
+</body>
+</html>
